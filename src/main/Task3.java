@@ -17,9 +17,7 @@ public class Task3 {
         }
         for (int i = 0; i < str2.length - 1; i++) {
             if (str2[i] > str2[i + 1]) {
-                int temp = str2[i + 1];
                 str2[i + 1] = str2[i];
-                str2[i] = temp;
             } else
                 b = i + 1;
         }
